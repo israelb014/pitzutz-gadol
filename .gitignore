@@ -1,0 +1,16 @@
+Library/
+Temp/
+Logs/
+Obj/
+Builds/
+UserSettings/
+_downloads/
+_kenney/
+verification/
+*.csproj
+*.sln
+__pycache__/
+Keystore/
+.utmp/
+build/
+.pylibs/

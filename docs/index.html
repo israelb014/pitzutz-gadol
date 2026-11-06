@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>פיצוץ גדול</title>
+<meta name="description" content="משחק מבוך ורימונים בעברית. ארבעה עולמות, ארבעה בוסים ומצב קרב נגד בוטים.">
+<link rel="icon" href="img/icon.png">
+<style>
+@font-face{font-family:Rubik;src:url(Rubik.ttf) format("truetype");font-weight:300 900;font-display:swap}
+:root{--sky:#bfe3f7;--ink:#17324a;--muted:#47637a;--grass:#1f9d5b;--grass-dark:#14764a;--brick:#c8562d;--brick-dark:#9c3f1e;--code:#14283a}
+*{box-sizing:border-box}
+html{background:var(--sky)}
+body{margin:0;font-family:Rubik,system-ui,sans-serif;color:var(--ink);line-height:1.6}
+main{max-width:980px;margin:0 auto;padding:48px 16px 32px}
+h1{font-size:clamp(44px,10vw,76px);line-height:1.1;margin:0;font-weight:800}
+.lead{font-size:20px;margin:12px 0 32px;color:var(--muted)}
+.downloads{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px;margin-bottom:40px}
+.btn{display:block;padding:16px 20px;border-radius:12px;color:#fff;text-decoration:none;text-align:center;font-weight:700;font-size:20px;line-height:1.35;box-shadow:0 5px 0 var(--grass-dark);background:var(--grass)}
+.btn.win{background:var(--brick);box-shadow:0 5px 0 var(--brick-dark)}
+.btn.phone{background:#2b6cb0;box-shadow:0 5px 0 #1f4f85}
+.btn:hover{filter:brightness(1.07)}
+.btn:active{transform:translateY(3px);box-shadow:0 2px 0 var(--grass-dark)}
+.btn.win:active{box-shadow:0 2px 0 var(--brick-dark)}
+.btn.phone:active{box-shadow:0 2px 0 #1f4f85}
+.btn:focus-visible,a:focus-visible{outline:3px solid var(--ink);outline-offset:3px}
+.btn span{display:block}
+.btn small{display:block;font-weight:400;font-size:15px}
+.note{margin:12px 0 0;font-size:15px;color:var(--muted);text-align:center}
+.shots{display:grid;grid-template-columns:repeat(2,1fr);gap:16px;margin-bottom:40px}
+.shots img{display:block;width:100%;height:auto;border-radius:10px;background:#9cc9e6}
+ol{margin:0 0 40px;padding-inline-start:24px}
+li{margin-bottom:6px}
+.eyebrow{margin:0;font-weight:700;color:var(--grass-dark);text-align:right}
+h2{margin:0 0 12px;font-size:28px}
+table{border-collapse:collapse;margin:0 0 40px;width:100%}
+th,td{padding:8px 12px;text-align:right;border-bottom:1px solid #93bcd6}
+th{font-weight:700}
+pre{margin:0 0 40px;padding:16px;background:var(--code);color:#eaf4fb;border-radius:10px;overflow-x:auto;font:15px/1.7 ui-monospace,Consolas,monospace;direction:ltr;text-align:left}
+footer{margin-top:40px;font-size:15px;color:var(--muted)}
+footer a{color:inherit}
+@media(max-width:640px){.shots{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<main>
+<h1>פיצוץ גדול</h1>
+<p class="lead">משחק מבוך ורימונים בעברית. פיצי החפרפרת מפוצץ את דרכו דרך ארבעה עולמות: עיר, מדבר, מפעל ומבצר. 16 שלבים, לכל אחד רעיון משלו, ארבעה בוסים, ומצב קרב נגד עד שלושה בוטים.</p>
+
+<section class="downloads" aria-label="הורדה">
+<div>
+<a class="btn phone" href="https://github.com/israelb014/pitzutz-gadol/releases/download/v1.0.0/PitzutzGadol-android.apk"><span>הורדה</span><span dir="ltr">Android</span><small>48 מגה-בייט</small></a>
+<p class="note">נבדק באמולטור, עדיין לא בטלפון אמיתי.</p>
+</div>
+<div>
+<a class="btn" href="https://github.com/israelb014/pitzutz-gadol/releases/download/v1.0.0/PitzutzGadol-linux.tar.gz"><span>הורדה</span><span dir="ltr">Linux</span><small>45 מגה-בייט</small></a>
+</div>
+<div>
+<a class="btn win" href="https://github.com/israelb014/pitzutz-gadol/releases/download/v1.0.0/PitzutzGadol-windows.zip"><span>הורדה</span><span dir="ltr">Windows</span><small>48 מגה-בייט</small></a>
+<p class="note">הגרסה הזו נבנתה, אבל עדיין לא נבדקה בהרצה.</p>
+</div>
+</section>
+
+<section class="shots" aria-label="תמונות מהמשחק">
+<img src="img/title.png" width="1920" height="1008" alt="מסך הפתיחה עם פיצי החפרפרת והרימון">
+<img src="img/s1.png" width="1920" height="1008" alt="שלב ראשון בעיר" loading="lazy">
+<img src="img/s2.png" width="1920" height="1008" alt="שלב המסועים במפעל" loading="lazy">
+<img src="img/s3.png" width="1920" height="1008" alt="שלב הקרח" loading="lazy">
+<img src="img/boss.png" width="1920" height="1008" alt="קרב בוס עם מד חיים" loading="lazy">
+<img src="img/battle.png" width="1920" height="1008" alt="מצב קרב נגד שלושה בוטים" loading="lazy">
+<img src="img/map.png" width="1920" height="1008" alt="מפת המסע עם ארבעת העולמות" loading="lazy">
+<img src="img/controls.png" width="1920" height="1008" alt="הגדרות השליטה במסך מגע" loading="lazy">
+</section>
+
+<section>
+<h2>שליטה</h2>
+<table>
+<tr><th></th><th>תזוזה</th><th>רימון</th><th>הפסקה</th></tr>
+<tr><td>מקלדת</td><td>חצים או <span dir="ltr">WASD</span></td><td dir="ltr" style="text-align:right">Space</td><td dir="ltr" style="text-align:right">Esc</td></tr>
+<tr><td>גיימפד</td><td>סטיק או חצים</td><td>כל כפתור</td><td dir="ltr" style="text-align:right">Start</td></tr>
+<tr><td>טלפון</td><td>ג'ויסטיק משמאל</td><td>כפתור גדול מימין</td><td>כפתור חזור</td></tr>
+</table>
+</section>
+
+<section>
+<p class="eyebrow" dir="ltr">Android</p>
+<h2>התקנה בטלפון</h2>
+<ol>
+<li>פותחים את הדף הזה בטלפון ולוחצים על כפתור ההורדה.</li>
+<li>אם ההורדה נכשלת ב-<span dir="ltr">Chrome</span>, פותחים את הדף ב-<span dir="ltr">Samsung Internet</span> ומורידים משם.</li>
+<li>כשההורדה מסתיימת, פותחים את הקובץ.</li>
+<li>אם ההתקנה נחסמת, נכנסים להגדרות שהטלפון מציע ומאשרים התקנה ממקור לא ידוע עבור הדפדפן.</li>
+<li>חוזרים אחורה ולוחצים על "התקן".</li>
+<li>אם מופיעה אזהרת אבטחה, בוחרים "פרטים נוספים" ואז "התקן בכל זאת".</li>
+</ol>
+</section>
+
+<section>
+<p class="eyebrow" dir="ltr">Linux</p>
+<h2>הרצה מהטרמינל</h2>
+<pre><code>curl -LO https://github.com/israelb014/pitzutz-gadol/releases/download/v1.0.0/PitzutzGadol-linux.tar.gz
+tar xzf PitzutzGadol-linux.tar.gz
+cd linux
+./PitzutzGadol.x86_64</code></pre>
+</section>
+
+<footer><a href="https://github.com/israelb014/pitzutz-gadol">קוד המקור</a> · <a href="https://github.com/israelb014/pitzutz-gadol/blob/main/CREDITS.md">קרדיטים</a></footer>
+</main>
+</body>
+</html>

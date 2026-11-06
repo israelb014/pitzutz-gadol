@@ -1,0 +1,14 @@
+/home/ib/work/pitzutz-gadol-unity/tools/simtest/obj/Release/net8.0/simtest.GeneratedMSBuildEditorConfig.editorconfig
+/home/ib/work/pitzutz-gadol-unity/tools/simtest/obj/Release/net8.0/simtest.AssemblyInfoInputs.cache
+/home/ib/work/pitzutz-gadol-unity/tools/simtest/obj/Release/net8.0/simtest.AssemblyInfo.cs
+/home/ib/work/pitzutz-gadol-unity/tools/simtest/obj/Release/net8.0/simtest.csproj.CoreCompileInputs.cache
+/tmp/claude-1000/-home-ib-work/1a835217-9328-45fd-9862-e2bccdb96d27/scratchpad/simbin/simtest
+/tmp/claude-1000/-home-ib-work/1a835217-9328-45fd-9862-e2bccdb96d27/scratchpad/simbin/simtest.deps.json
+/tmp/claude-1000/-home-ib-work/1a835217-9328-45fd-9862-e2bccdb96d27/scratchpad/simbin/simtest.runtimeconfig.json
+/tmp/claude-1000/-home-ib-work/1a835217-9328-45fd-9862-e2bccdb96d27/scratchpad/simbin/simtest.dll
+/tmp/claude-1000/-home-ib-work/1a835217-9328-45fd-9862-e2bccdb96d27/scratchpad/simbin/simtest.pdb
+/home/ib/work/pitzutz-gadol-unity/tools/simtest/obj/Release/net8.0/simtest.dll
+/home/ib/work/pitzutz-gadol-unity/tools/simtest/obj/Release/net8.0/refint/simtest.dll
+/home/ib/work/pitzutz-gadol-unity/tools/simtest/obj/Release/net8.0/simtest.pdb
+/home/ib/work/pitzutz-gadol-unity/tools/simtest/obj/Release/net8.0/simtest.genruntimeconfig.cache
+/home/ib/work/pitzutz-gadol-unity/tools/simtest/obj/Release/net8.0/ref/simtest.dll
